@@ -1,24 +1,24 @@
- AI-Based Construction Cost Estimation System
+🏗️ AI-Based Construction Cost Estimation System
 
 An end-to-end AI-powered system that automates construction cost estimation — from blueprint generation to real-time material price scraping and intelligent cost computation.
 
- Overview
+🚀 Overview
 
 This project eliminates manual construction cost estimation by integrating:
 
- AI-driven 2D blueprint generation (SVG)
+🏠 AI-driven 2D blueprint generation (SVG)
 
- Automated material quantity extraction
+🧱 Automated material quantity extraction
 
- Real-time price scraping using Selenium
+🌐 Real-time price scraping using Selenium
 
- Redis-based caching for optimized performance
+⚡ Redis-based caching for optimized performance
 
- Intelligent cost computation with labor & contingency factors
+📊 Intelligent cost computation with labor & contingency factors
 
 The system provides fast, transparent, and data-driven cost estimates based on live market pricing.
 
- System Workflow
+🔄 System Workflow
 
 User Input (Plot Details)
 → Generate 2D SVG Blueprint
@@ -28,7 +28,7 @@ User Input (Plot Details)
 → Cost Calculation (Material + 30% Labor + 12% Contingency)
 → Return Final Cost Estimate
 
- Tech Stack
+🛠️ Tech Stack
 
 Language: Python
 
@@ -40,7 +40,7 @@ Caching: Redis
 Data Handling: JSON
 Deployment: Local / Cloud
 
- Project Structure
+📂 Project Structure
 ├── blueprint/
 │   └── svg_generator.py
 ├── scraper/
@@ -53,7 +53,7 @@ Deployment: Local / Cloud
 ├── requirements.txt
 └── README.md
 
- Key Features
+✨ Key Features
 
 Automated 2D architectural blueprint generation
 
@@ -67,7 +67,7 @@ Transparent cost breakdown
 
 Modular & scalable architecture
 
- Limitations
+⚠️ Limitations
 
 Blueprint is conceptual (not legally certified)
 
@@ -75,7 +75,7 @@ Prices depend on supplier listing availability
 
 Labor rates are generalized
 
- Future Enhancements
+🔮 Future Enhancements
 
 3D blueprint generation
 
